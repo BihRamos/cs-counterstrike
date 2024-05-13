@@ -7,3 +7,5 @@ Séries de jogos de tiro em primeira pessoa onde há times de terroristas e cont
 [pixabay](https://pixabay.com/pt/images/search/counter%20strike/) 
 
 [icon-icons](https://icon-icons.com/search/icons/strike)
+
+[icons8](https://icons8.com.br/icons/set/counter-strike)
