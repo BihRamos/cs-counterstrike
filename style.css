@@ -1,6 +1,31 @@
 /*FOLHA DE ESTILO DO SITE CS-COUNTER STRIKE
 @author BIH RAMOS 
+
 */
+
+
+/*IMPORTAÇÃO DE FONTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body{
+   
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
+}
+/*CSS RESET - (zerar margem ,borda e preenhimento de todos os elemntos*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/*LAYOUT*/
+.Conteiner{
+    margin:0 auto;
+    background-color: rgb(238, 12, 12);
+}
+
 
 /*SMARTPHONE PORTRAIT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
@@ -10,13 +35,21 @@
     body{
         background-color: rgb(78, 247, 12);
     }
+/*LAYOUT*/
+    .Conteiner{
+       max-width: 540px;
+}
 }
 
 /*TABLET PORTRAIT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:768px){
     body{
-        background-color: rgb(12, 23, 230);
+        background-color: rgb(107, 207, 223);
     }
+/*LAYOUT*/
+    .Conteiner{
+        max-width: 720px;
+ }
 }
 
 /*TABLET LANDSCAPE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -24,6 +57,10 @@
     body{
         background-color: rgb(248, 6, 252);
     }
+/*LAYOUT*/
+    .Conteiner{
+        max-width: 960px;
+ }
 }
 
 /*COMPUTADOR>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -31,4 +68,8 @@
     body{
         background-color: rgb(252, 248, 6);
     }
+/*LAYOUT*/
+    .Conteiner{
+        max-width:1140px;
+ }
 } 
