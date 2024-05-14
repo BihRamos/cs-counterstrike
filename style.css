@@ -8,7 +8,7 @@
 /*SMARTPHONE LANDSCAPE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:576px){
     body{
-        background-color: brown;
+        background-color: rgb(78, 247, 12);
     }
 }
 
@@ -31,4 +31,4 @@
     body{
         background-color: rgb(252, 248, 6);
     }
-}
+} 
