@@ -14,7 +14,7 @@ body{
   font-family: "Nunito", sans-serif;
   font-size: 1em;
 }
-/*CSS RESET - (zerar margem ,borda e preenhimento de todos os elemntos*/
+/*CSS RESET - (zerar margem ,borda preechimento         de todos os elementos*/
 *{
     margin: 0;
     border: 0;
@@ -23,7 +23,13 @@ body{
 /*LAYOUT*/
 .Conteiner{
     margin:0 auto;
-    background-color: rgb(238, 12, 12);
+    background-color: rgb(196, 173, 173);
+}
+/*TOPO DO SITE*/
+#topo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
 
 
