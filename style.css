@@ -21,9 +21,15 @@ body{
     padding: 0;
 }
 /*LAYOUT*/
-.Conteiner{
+.Container{
     margin:0 auto;
-    background-color: rgb(196, 173, 173);
+   
+}
+
+.Flex{
+    display:flex;
+    justify-content:space-between;
+   
 }
 /*TOPO DO SITE*/
 #topo{
@@ -35,47 +41,103 @@ body{
 
 /*SMARTPHONE PORTRAIT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
+/*CABEÇALHO*/
+header{
+    height: 60px;
+}
+#check{
+    display: none;
+}
+label{
+    font-size: 3em;
+    padding-right: 15px;
+
+}
+nav ul{
+    list-style: none;
+    background-color: #a1b0dd;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+#check:checked ~ ul {
+    right:0;
+}
+nav ul li{
+    padding: 20px;
+    border-bottom: 1px solid #000000;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
 
 /*SMARTPHONE LANDSCAPE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:576px){
-    body{
-        background-color: rgb(78, 247, 12);
-    }
+    
 /*LAYOUT*/
-    .Conteiner{
+    .Container{
        max-width: 540px;
 }
 }
 
 /*TABLET PORTRAIT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:768px){
-    body{
-        background-color: rgb(107, 207, 223);
-    }
+    
 /*LAYOUT*/
-    .Conteiner{
+    .Container{
         max-width: 720px;
  }
 }
 
 /*TABLET LANDSCAPE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:992px){
-    body{
-        background-color: rgb(248, 6, 252);
-    }
+    
 /*LAYOUT*/
-    .Conteiner{
+    .Container{
         max-width: 960px;
  }
 }
 
 /*COMPUTADOR>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:1200px){
-    body{
-        background-color: rgb(252, 248, 6);
-    }
+   
 /*LAYOUT*/
-    .Conteiner{
+    .Container{
         max-width:1140px;
+ }
+
+ /*CABEÇALHO*/
+ header{
+    height: 120px;
+ }
+ #logo img{
+    width: 189px;
+    height: 189px;
+    margin-top: 30px;
+    margin-left: 100px;
+ }
+ label{
+    display: none;
+ }
+ nav ul{
+    position: static;
+    height: auto;
+    background-color: transparent;
+    margin-top: 50px;
+ }
+ nav ul li{
+    float: left;
+    border: 0;
+ }
+
+ nav ul li a{
+    color: #343538;
+ }
+ nav ul li a:hover{
+    color: #e8850c;
  }
 } 
