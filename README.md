@@ -9,3 +9,16 @@ Séries de jogos de tiro em primeira pessoa onde há times de terroristas e cont
 [icon-icons](https://icon-icons.com/search/icons/strike)
 
 [icons8](https://icons8.com.br/icons/set/counter-strike)
+
+
+Validação W3C 🖥️
+
+[HTML](https://validator.w3.org/)
+
+[CSS](https://jigsaw.w3.org/css-validator/)
+
+@author Bih Ramos
+
+Site criado para fins didáticos e apresentação de portifólio
+
+Curso Oferecido por [@ProfessorJosedeAssis](https://www.youtube.com/@ProfessorJosedeAssis)
