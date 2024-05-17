@@ -10,6 +10,11 @@ Séries de jogos de tiro em primeira pessoa onde há times de terroristas e cont
 
 [icons8](https://icons8.com.br/icons/set/counter-strike)
 
+Vídeos Indicados 💻
+
+[HardLevel](https://www.youtube.com/watch?v=_zpAd01_NGs)
+
+
 
 Validação W3C 🖥️
 
