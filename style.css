@@ -31,6 +31,16 @@ body{
     justify-content:space-between;
    
 }
+.Botao{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    background-color: red;
+    padding: 10px 40px ;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
 /*TOPO DO SITE*/
 #topo{
     position: fixed;
@@ -75,12 +85,42 @@ nav ul li a {
     color: #fff;
 }
 
+/*DESTAQUE*/
+
+main{
+    height: 75vh;
+    background: url(img/bannercs.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1{
+    font-size: 2.5em;
+    color: #fffafb;
+    
+}
+
+main h2{
+    font-size: 1em;
+    margin: 20px 0px 50px 0px ;
+    color: #ffffff;
+}
+
 /*SMARTPHONE LANDSCAPE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:576px){
     
 /*LAYOUT*/
     .Container{
        max-width: 540px;
+}
+
+/*DESTAQUE*/
+main h1,main h2{
+    text-shadow: #000000 0.05em 0.05em 0.05em;
 }
 }
 
@@ -91,6 +131,17 @@ nav ul li a {
     .Container{
         max-width: 720px;
  }
+ /*DESTAQUE*/
+main{
+    height: 39vh;
+}
+main h1{
+    font-size: 5.5em;
+}
+main h2{
+   font-size: 2em;
+
+}
 }
 
 /*TABLET LANDSCAPE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -100,6 +151,12 @@ nav ul li a {
     .Container{
         max-width: 960px;
  }
+
+ /*DESTAQUE*/
+main{
+    height: 70vh;
+}
+
 }
 
 /*COMPUTADOR>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
