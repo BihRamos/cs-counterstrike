@@ -31,6 +31,10 @@ body{
     justify-content:space-between;
    
 }
+.Flex2{
+    display: flex;
+    justify-content: space-between;
+}
 .Botao{
     text-decoration: none;
     color: #fff;
@@ -91,6 +95,7 @@ main{
     height: 75vh;
     background: url(img/bannercs.jpg);
     background-size: cover;
+    background-position: center;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -115,7 +120,8 @@ main h2{
     padding: 50px 0px;
     background:url(img/background.jpg) ;
     background-size: cover;
-   opacity: 0.8;
+    opacity: 0.8;
+    background-position: center;
 
 }
 
@@ -129,6 +135,7 @@ main h2{
 #textoSobre h2{
     margin-bottom: 10px;
     text-shadow: #000000 0.15em 0.15em 0.15em;
+    margin-top: 50px;
 }
 #textoSobre p{
     text-shadow: #000000 0.15em 0.15em 0.15em;
@@ -227,5 +234,23 @@ main{
  }
  nav ul li a:hover{
     color: #e8850c;
+ }
+
+ /*SOBRE*/
+
+ #sobre{
+background-attachment: fixed;
+
+ }
+
+
+ #destaqueSobre{
+    display: inline;
+ }
+
+ #destaqueSobre img{
+    border-radius: 55%;
+    margin-right: 50px;
+ 
  }
 } 
