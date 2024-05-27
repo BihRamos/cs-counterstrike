@@ -33,7 +33,11 @@ body{
 }
 .Flex2{
     display: flex;
-    justify-content: space-between;
+   align-items: center;
+}
+.Flex3{
+    display: flex;
+    flex-direction: column;
 }
 .Botao{
     text-decoration: none;
@@ -64,7 +68,10 @@ header{
 }
 label{
     font-size: 3em;
-    padding-right: 15px;
+   position: fixed;
+   top: 5px;
+   right: 15px;
+   color: rgba(0, 0, 0, 0.5);
 
 }
 nav ul{
@@ -120,7 +127,6 @@ main h2{
     padding: 50px 0px;
     background:url(img/background.jpg) ;
     background-size: cover;
-    opacity: 0.8;
     background-position: center;
 
 }
@@ -130,7 +136,7 @@ main h2{
 }
 #textoSobre{
     color: #ffffff;
-    padding:10px 10px
+    padding:10px 10px;
 }
 #textoSobre h2{
     margin-bottom: 10px;
@@ -139,6 +145,21 @@ main h2{
 }
 #textoSobre p{
     text-shadow: #000000 0.15em 0.15em 0.15em;
+}
+/*ONE PAGE*/    
+#onepage{
+    padding: 50px 10px;
+}
+#onepage h2{
+    margin-bottom: 10px;
+}
+#onepage p{
+    margin-bottom: 25px;
+}
+#video iframe{
+    width: 340px;
+    height: 191px;
+    border: 0;
 }
 
 
@@ -153,6 +174,11 @@ main h2{
 /*DESTAQUE*/
 main h1,main h2{
     text-shadow: #000000 0.05em 0.05em 0.05em;
+}
+
+#video iframe{
+    width: 560px;
+    height: 315px;
 }
 }
 
@@ -239,12 +265,10 @@ main{
  /*SOBRE*/
 
  #sobre{
-background-attachment: fixed;
+    background-attachment: fixed;
+}
 
- }
-
-
- #destaqueSobre{
+#destaqueSobre{
     display: inline;
  }
 
@@ -252,5 +276,10 @@ background-attachment: fixed;
     border-radius: 55%;
     margin-right: 50px;
  
+ }
+ .Flex3{
+    flex-direction: row;
+    align-items: center;
+
  }
 } 
