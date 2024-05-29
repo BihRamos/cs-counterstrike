@@ -137,6 +137,13 @@ main h2 {
 #textoSobre p {
   text-shadow: #000000 0.15em 0.15em 0.15em;
 }
+#textoComandos span{
+  display: none;
+}
+#qrcode{
+  display: none;
+}
+
 /*ONE PAGE*/
 #onepage {
   padding: 50px 10px;
@@ -151,6 +158,27 @@ main h2 {
   width: 340px;
   height: 191px;
   border: 0;
+}
+
+/*PDF*/
+
+#comandos {
+  padding: 50px 0px;
+  background: url(img/paralax.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#textoComandos {
+  color: #ffffff;
+  padding: 0px 10px;
+  text-shadow: #000000 0.06em 0.06em 0.06em;
+}
+#textoComandos h2 {
+  margin-bottom: 10px;
+}
+#textoComandos p {
+  margin-bottom: 40px;
 }
 
 /*SMARTPHONE LANDSCAPE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -264,4 +292,22 @@ main h2 {
     flex-direction: row;
     align-items: center;
   }
+  /*PDF*/
+
+  #comandos{
+    background-attachment: fixed;
+  }
+
+  #comandos span{
+    display: inline;
+  }
+  #qrcode{
+    display: inline;
+  }
+  #qrcode img{
+    width: 225px;
+    height: 225px;
+    
+  }
+
 }
