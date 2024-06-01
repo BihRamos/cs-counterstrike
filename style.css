@@ -34,14 +34,20 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.Flex4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .Botao {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 1.3em;
   font-weight: 700;
-  background-color: red;
+  background-color: rgb(10, 65, 13);
   padding: 10px 40px;
-  border: 2px solid #fff;
+  border: 2px solid #10b346;
   border-radius: 25px;
 }
 /*TOPO DO SITE*/
@@ -50,6 +56,32 @@ body {
   right: 10px;
   bottom: 10px;
 }
+/*CARTAÃO*/
+.Card{
+  margin-top: 25px;
+  width: 338px;
+  height: 520px;
+  background-color: #a1b0dd;
+  border: 1px solid #343538;
+  border-radius: 25px;
+  text-align: center;
+}
+.Card img{
+  border-radius: 25px 25px 0px 0px;
+}
+.Card h3{
+  margin-top: 15px;
+}
+.Card p{
+  text-align: left;
+  color: #343538;
+  padding: 10px 30px 50px 30px;
+}
+.Card a{
+  padding: 10px 100px;
+ 
+}
+
 
 /*SMARTPHONE PORTRAIT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
@@ -143,6 +175,15 @@ main h2 {
 #qrcode{
   display: none;
 }
+/*CONTEUDO*/
+#conteudo{
+  padding: 50px 0px;
+}
+#conteudo h2{
+  margin-bottom: 25px;
+  text-align: center;
+}
+
 
 /*ONE PAGE*/
 #onepage {
